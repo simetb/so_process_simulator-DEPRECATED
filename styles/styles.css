@@ -1,0 +1,227 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+/*Fuente*/
+.pbold{
+	font-weight: bold;
+}
+
+/*FONDO*/
+
+.bg-azul-claro{
+	background-color: #f6f5f5
+}
+
+
+.bg-gris{
+	background-color: #f6f5f5;
+}
+
+.bg-azul{
+	background-color: #1687a7;
+}
+
+.bg-azul-oscuro{
+	background-color: #276678;
+}
+
+.bg-amarillo{
+	background-color: #F1C40F ;
+}
+
+.bg-rojo{
+	background-color: #CD6155;
+}
+
+.bg-verde{
+	background-color: #28B463;
+}
+
+/*COLORES DE FUENTES*/
+
+.p-azul{
+	color: #1687a7;
+}
+
+
+.p-azul-oscuro{
+	color: #276678;
+}
+
+.p-verde{
+	color: #28B463;
+}
+
+.p-verde-oscuro{
+	color: #229954;
+}
+
+.p-rojo{
+	color: #CD6155;
+}
+
+.p-rojo-oscuro{
+	color: #A93226;
+}
+
+.p-amarillo{
+	color:#F1C40F;
+}
+
+.p-amarillo-oscuro{
+	color: #D4AC0D;
+}
+
+.p-blanco{
+	color: white;
+}
+
+
+/*ESTILOS DE VENTANA*/
+.ventana{
+	width: 32.4%;
+	height: 300px;
+}
+
+.borde-gris{
+	border: 7px solid #f6f5f5
+}
+
+.splus{
+	margin-top: 100px;
+	font-size:60px;
+}
+
+.eliminar{
+	color: transparent;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.eliminar:hover{
+	color: white;
+}
+
+/*BOTON*/
+.boton-encendido{
+	width: 100px;
+	height:100px;
+	cursor: pointer;
+	border: solid 2px #CD6155;
+	color: #CD6155;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 40px;
+	transition: 0.5s;
+}
+
+.boton-apagado{
+	width: 100px;
+	height:100px;
+	cursor: pointer;
+	border: solid 2px #28B463;
+	color: #28B463;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 40px;
+	transition: 0.5s;
+}
+
+.boton-play{
+	width: 100px;
+	height:100px;
+	cursor: pointer;
+	border: solid 2px #1687a7;
+	color: #1687a7;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 40px;
+	transition: 0.5s;
+
+}
+
+.boton-play-apagado{
+	width: 100px;
+	height:100px;
+	border: solid 2px #D3D3D3;
+	color: #D3D3D3;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 40px;
+	transition: 0.5s;
+}
+
+
+
+.cajaBoton{
+	padding-right: 25%;
+	padding-left: 25%; 
+}
+
+.modal-container{
+	display: none;
+	position: absolute;
+	border: 5px solid #276678;
+	width: 300px;
+	margin-left: 10%;
+	border-radius: 10px;
+	box-shadow: 100px 20px 20px rgba(0,0,0,0.18);
+
+}
+
+.boton-agg{
+	background-color: #276678;
+	width: 50%;
+	height: 40px;
+	border:none;
+	border-radius: 20px;
+	margin-left: 25%;
+	color: white;
+	transition: 0.4s;
+}
+
+.boton-agg i{
+	margin: 0px;
+	font-size: 30px;
+}
+
+.boton-agg:hover{
+	background-color: white;
+	border: 3px solid #276678 ;
+	color: #276678;
+}
+
+.microfono-encendido{
+	cursor: pointer;
+	color:#229954;
+
+}
+
+.microfono-apagado{
+	cursor: pointer;
+	color:#1687a7;
+}
+
+.aud-encendido{
+	cursor: pointer;
+	color:#229954;
+
+}
+
+.aud-apagado{
+	cursor: pointer;
+	color:#1687a7;
+}
+/*ID*/
+#agregar{
+	color:#276678;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+#agregar:hover{
+	color: #f6f5f5;
+	background-color: #276678;
+}

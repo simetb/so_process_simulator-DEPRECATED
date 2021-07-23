@@ -1,0 +1,14 @@
+--colores--
+
+Azul claro
+f6f5f5
+
+azul gris
+f6f5f5
+
+azul
+1687a7
+
+azul apagado fondo
+276678
+
